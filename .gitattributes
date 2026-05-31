@@ -1,2 +1,5 @@
 *.ipynb merge=jupyterlab
-
+pip install nbstripout
+nbstripout SmartNode-POC-Atul.ipynb
+git add SmartNode-POC-Atul.ipynb
+git commit -m "Clean up notebook: remove widget metadata and outputs"
